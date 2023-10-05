@@ -1,0 +1,74 @@
+﻿
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+    padding: 0px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 6px 12px !important;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select .form-control {
+    padding: 6px 12px !important;
+}
+
+.form-check-label {
+    padding-left: 30px;
+}
+
+.form-check-input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.form-check-input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
+.dropdowns {
+    float: right;
+    position: relative;
+    bottom: 56px;
+    text-align: right;
+    right: 10px;
+    max-width: 60px;
+}
